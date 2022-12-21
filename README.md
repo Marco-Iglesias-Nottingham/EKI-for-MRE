@@ -18,3 +18,5 @@ The main script is Driver_MRE.m. Running this script will:
 Most parameters are defined in Driver_MRE.m. but some parameters (assumed known) for the visco-elastic model are hard coded in set_model.m
 
 Note that the main results from Section 4.2 are obtained using ensemble size N_En=10^4 which required us to use multiple cores from a node in the HPC at Nottingham. However, the code can still provide reasonable outcomes using a moderate size (i.e. N_En=500) more manageable for standard multi-core desktop/laptop.
+
+The files tight_subplot.m and imagescwithnan.m were found online and used for visualisation. 
